@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  scroll-behavior: smooth;
 }
 
 :root {
@@ -23,6 +24,15 @@
   --img-color: none;
 }
 
+.personal-theme {
+  --bg-color: #7C93C3;
+  --color: #E1D7B7;
+  --p-color: #e6e5e2;
+  --a-color: #e6e5e2;
+  --h1-color: #e6e5e2;
+  --img-color: none;
+}
+
 body {
   background-color: var(--bg-color);
   color: var(--color);
@@ -39,7 +49,6 @@ p {
   width: 100%;
   height: 80vh;
 }
-
 nav {
   position: sticky;
   top: 2%;
@@ -82,6 +91,11 @@ div button.theme {
 .theme.dark {
   background-color: #000;
 }
+
+.theme.personal {
+  background-color: #7C93C3;
+}
+
 .details {
   margin-left: 8%;
   margin-top: 20%;
@@ -115,7 +129,7 @@ div button.theme {
 }
 #about {
   position: relative;
-  height: 60vh;
+  height: 80vh;
   margin-left: 8%;
   margin-top: 15%;
 }
@@ -158,13 +172,13 @@ h2 {
 
 .ml {
   position: absolute;
-  top: 25%;
+  top: 26%;
   left: 50%;
 }
 
 #contact {
   position: relative;
-  height: 30vh;
+  height: 40vh;
 }
 
 #contact h1 {

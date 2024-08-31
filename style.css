@@ -120,7 +120,7 @@ div button.theme {
   height: 80%;
   position: absolute;
   bottom: 320px;
-  right: 100px;
+  right: 90px;
 }
 .images img {
   height: 100%;
@@ -154,26 +154,26 @@ h2 {
   height: 380px;
   position: absolute;
   bottom: 37%;
-  left: 21%;
+  left: 27%;
   border-radius: 50%;
 }
 
 .pic img {
   height: 100%;
-  position: absolute;
+  position: relative;
 }
 
 .d2 {
   position: absolute;
   top: 10%;
-  left: 50%;
+  left: 65%;
   background-color: var(--img-color);
 }
 
 .ml {
   position: absolute;
   top: 26%;
-  left: 50%;
+  left: 65%;
 }
 
 #contact {

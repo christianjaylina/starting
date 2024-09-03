@@ -13,6 +13,7 @@
   --text-md: 22px;
   --h1-color: #212121;
   --img-color: rgb(158 24 24);
+  --box-shadow: 0 0 3px 3px  #034c6480;
 }
 
 .dark-theme {
@@ -22,15 +23,17 @@
   --a-color: #fff;
   --h1-color: #e7e2e2;
   --img-color: none;
+  --box-shadow: 0 0 3px 3px  #f3f3f380;
 }
 
 .personal-theme {
-  --bg-color: #7C93C3;
-  --color: #E1D7B7;
+  --bg-color: #7c93c3;
+  --color: #e1d7b7;
   --p-color: #e6e5e2;
   --a-color: #e6e5e2;
   --h1-color: #e6e5e2;
   --img-color: none;
+  --box-shadow: 0 0 3px 3px  #ff9900;
 }
 
 body {
@@ -51,7 +54,7 @@ p {
 }
 nav {
   position: sticky;
-  top: 2%;
+  top: 25px;
   display: flex;
   width: 84%;
   margin: auto;
@@ -93,7 +96,7 @@ div button.theme {
 }
 
 .theme.personal {
-  background-color: #7C93C3;
+  background-color: #7c93c3;
 }
 
 .details {
@@ -118,15 +121,16 @@ div button.theme {
 .images {
   width: 45%;
   height: 80%;
-  position: absolute;
-  bottom: 320px;
-  right: 90px;
+
 }
 .images img {
   height: 100%;
   position: absolute;
-  left: 10%;
+  bottom: 300px;
+  right: 400px;
+
 }
+
 #about {
   position: relative;
   height: 80vh;
@@ -142,38 +146,39 @@ h2 {
 }
 
 #about p {
-  height: 300px;
-  width: 370px;
+  height: 200px;
+  width: 400px;
   color: var(--p-color);
   line-height: 22px;
   font-size: 18px;
 }
 
-.pic {
+#about .pic {
   width: 380px;
   height: 380px;
   position: absolute;
-  bottom: 37%;
-  left: 27%;
+  bottom: 54%;
+  left: 24%;
   border-radius: 50%;
-}
-
-.pic img {
-  height: 100%;
-  position: relative;
 }
 
 .d2 {
   position: absolute;
-  top: 10%;
-  left: 65%;
+  width: auto;
+  top: 0;
+  right: 400px;
   background-color: var(--img-color);
+}
+.d2:hover, .ml:hover {
+  box-shadow: var(--box-shadow);
 }
 
 .ml {
   position: absolute;
-  top: 26%;
-  left: 65%;
+  top: 100px;
+  right: 550px;
+  width: auto;
+
 }
 
 #contact {

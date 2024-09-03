@@ -6,7 +6,7 @@
     <title>My Portfolio || Lina</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="dark-theme">
+  <body>
     <nav class="nav">
       <br />
       <ul>
@@ -14,11 +14,14 @@
         <li><a href="#about">ABOUT</a></li>
         <li><a href="#contact">CONTACTS</a></li>
       </ul>
-        <div class="button">
-          <button onclick="updateTheme()" class="default theme"></button>
-          <button onclick="updateTheme(DARK_THEME)" class="dark theme"></button>
-          <button onclick="updateTheme(PERSONAL_THEME)" class="personal theme"></button>
-        </div>
+      <div class="button">
+        <button onclick="updateTheme()" class="default theme"></button>
+        <button onclick="updateTheme(DARK_THEME)" class="dark theme"></button>
+        <button
+          onclick="updateTheme(PERSONAL_THEME)"
+          class="personal theme"
+        ></button>
+      </div>
     </nav>
     <div class="front">
       <div class="details">
@@ -50,8 +53,8 @@
         something exciting.
       </p>
       <img class="pic" src="images/2.jpg" alt="profile2" />
-      <img class="d2" src="images/dota2_logo_horiz.png" alt="dota2_logo_horiz" />
-      <img class="ml" src="images/221.png" alt="ml" />
+      <a href="https://www.dota2.com/home" target="_blank" rel="noopener noreferrer"><img src="images/dota2_logo_horiz.png" alt="dota2 logo" class="d2"></a>
+      <a href="https://m.mobilelegends.com/" target="_blank" rel="noopener noreferrer"><img src="images/221.png" alt="ml logo" class="ml"></a>
     </div>
     <div id="contact">
       <h1>Contact Me</h1>
@@ -59,7 +62,7 @@
         If you have questions or inquiry, you can reach me through the
         following:
       </h3>
-      <h4>Facebook: <a href="https://www.facebook.com/cjlina13">Cj Lina</a></h4>
+      <h4>Facebook: <a href="http://www.facebook.com/cjlina13" target="_blank" rel="noopener noreferrer">Cj Lina</a></h4>
       <h4>Discord: drdraxx1</h4>
       <h4>Email: christianjay.lina@hcdc.edu.ph</h4>
     </div>

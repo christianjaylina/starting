@@ -60,6 +60,7 @@ nav {
   margin: auto;
   align-items: center;
   justify-content: right;
+  z-index: 1;
 }
 nav ul li {
   display: inline-block;
@@ -128,6 +129,7 @@ div button.theme {
   position: absolute;
   bottom: 300px;
   right: 400px;
+  opacity: 2%;
 
 }
 
@@ -135,7 +137,7 @@ div button.theme {
   position: relative;
   height: 80vh;
   margin-left: 8%;
-  margin-top: 15%;
+  margin-top: 8%;
 }
 
 #about h1,
@@ -160,12 +162,13 @@ h2 {
   bottom: 54%;
   left: 24%;
   border-radius: 50%;
+  opacity: 5%;
 }
 
 .d2 {
   position: absolute;
   width: auto;
-  top: 0;
+  top: 8%;
   right: 400px;
   background-color: var(--img-color);
 }
@@ -175,7 +178,7 @@ h2 {
 
 .ml {
   position: absolute;
-  top: 100px;
+  top: 140px;
   right: 550px;
   width: auto;
 

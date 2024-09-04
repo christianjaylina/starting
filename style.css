@@ -13,7 +13,7 @@
   --text-md: 22px;
   --h1-color: #212121;
   --img-color: rgb(158 24 24);
-  --box-shadow: 0 0 3px 3px  #034c6480;
+  --box-shadow: 0 0 3px 3px #034c6480;
 }
 
 .dark-theme {
@@ -23,7 +23,7 @@
   --a-color: #fff;
   --h1-color: #e7e2e2;
   --img-color: none;
-  --box-shadow: 0 0 3px 3px  #f3f3f380;
+  --box-shadow: 0 0 3px 3px #f3f3f380;
 }
 
 .personal-theme {
@@ -33,7 +33,7 @@
   --a-color: #e6e5e2;
   --h1-color: #e6e5e2;
   --img-color: none;
-  --box-shadow: 0 0 3px 3px  #ff9900;
+  --box-shadow: 0 0 3px 3px #ff9900;
 }
 
 body {
@@ -122,15 +122,12 @@ div button.theme {
 .images {
   width: 45%;
   height: 80%;
-
 }
 .images img {
   height: 100%;
   position: absolute;
   bottom: 300px;
   right: 400px;
-  opacity: 2%;
-
 }
 
 #about {
@@ -162,7 +159,6 @@ h2 {
   bottom: 54%;
   left: 24%;
   border-radius: 50%;
-  opacity: 5%;
 }
 
 .d2 {
@@ -172,7 +168,8 @@ h2 {
   right: 400px;
   background-color: var(--img-color);
 }
-.d2:hover, .ml:hover {
+.d2:hover,
+.ml:hover {
   box-shadow: var(--box-shadow);
 }
 
@@ -181,7 +178,6 @@ h2 {
   top: 140px;
   right: 550px;
   width: auto;
-
 }
 
 #contact {

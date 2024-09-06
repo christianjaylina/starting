@@ -56,21 +56,22 @@ nav {
   position: sticky;
   top: 25px;
   display: flex;
-  width: 84%;
-  margin: auto;
   align-items: center;
   justify-content: right;
   z-index: 1;
+
 }
 nav ul li {
   display: inline-block;
   list-style: none;
-  margin: 10px 20px;
+  margin: 10px 15px;
 }
 nav ul li a {
   text-decoration: none;
   font-weight: bold;
   color: var(--a-color);
+  position: relative;
+  right: 200px;
 }
 nav ul li a:hover {
   color: red;
@@ -85,7 +86,7 @@ div button.theme {
   border: 1px solid red;
   cursor: pointer;
   position: relative;
-  left: 95%;
+  right: 150px;
 }
 
 .theme.default {
@@ -128,13 +129,14 @@ div button.theme {
   position: absolute;
   bottom: 300px;
   right: 400px;
+  opacity: 5%;
 }
 
 #about {
   position: relative;
   height: 80vh;
-  margin-left: 8%;
   margin-top: 8%;
+  width: 100%;
 }
 
 #about h1,
@@ -159,6 +161,7 @@ h2 {
   bottom: 54%;
   left: 24%;
   border-radius: 50%;
+  opacity: 5%;
 }
 
 .d2 {
@@ -168,6 +171,7 @@ h2 {
   right: 400px;
   background-color: var(--img-color);
 }
+
 .d2:hover,
 .ml:hover {
   box-shadow: var(--box-shadow);
@@ -183,6 +187,7 @@ h2 {
 #contact {
   position: relative;
   height: 40vh;
+  width: 100%;
 }
 
 #contact h1 {
@@ -208,4 +213,49 @@ h2 {
 
 #contact h4 a:hover {
   color: rgb(47, 95, 226);
+}
+
+@media (max-width: 600px) {
+
+  nav  {
+    position: sticky;
+    z-index: 1;
+    justify-content: right;
+    display: flex;
+    top: 20px;
+    overflow-x: hidden;
+  }
+  nav ul li a {
+    font-size: 20px;
+    position: relative;
+    right: 50%;
+  }
+
+  .button {
+    position: relative;
+    left: 20%;
+  }
+  .details {
+    margin-left: 3%;
+    margin-top: 15%;
+  }
+  .details h2 {
+    font-size: 32px;
+  }
+  .details h1 {
+    font-size: 34px;
+  }
+  .details p {
+    font-size: 16px;
+    height: 300px;
+    width: 300px;
+  }
+  .images img {
+    height: 75%;
+    position: absolute;
+    left: 250px;
+    bottom: 260px;
+  }
+
+
 }
